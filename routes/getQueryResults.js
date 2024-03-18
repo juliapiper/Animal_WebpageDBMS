@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'Poe<3sweaters',
-    database: 'ADVENTURER'
+    database: 'ANIMALS'
 });
 
 router.post('/', (req, res) => {
@@ -21,7 +21,7 @@ router.post('/', (req, res) => {
         } else {
             // Sending this query results back to the client.
             connection.query(
-                "SELECT * FROM Regions",
+                "SELECT * FROM mammal WHERE diet_type = 'Omnivore' AND in_north_america = 'Y' LIMIT 6",
                 function (err, rows) {
                     if (rows === undefined) {
 
@@ -29,7 +29,7 @@ router.post('/', (req, res) => {
                         console.log(rows)
                         text = ""
                         for (let i = 0; i < rows.length; i++) {
-                            text += rows[i].RegionName + "<br>";
+                            text += rows[i].mammal_ID + "<br>";
                         }
                         return res.end(text);
                     }
