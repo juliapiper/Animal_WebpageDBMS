@@ -29,7 +29,10 @@ router.post('/', (req, res) => {
                         console.log(rows)
                         text = ""
                         for (let i = 0; i < rows.length; i++) {
-                            text += rows[i].mammal_ID + "<br>";
+                            text += rows[i].mammal_ID + ","
+                            text += rows[i].diet_type + ","
+                            text += rows[i].lifespan + ","
+                            text += "\n";
                         }
                         return res.end(text);
                     }
