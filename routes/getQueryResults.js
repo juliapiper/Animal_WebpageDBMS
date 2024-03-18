@@ -24,7 +24,7 @@ router.post('/', (req, res) => {
                 "SELECT * FROM mammal WHERE diet_type = 'Omnivore' AND in_north_america = 'Y' LIMIT 6",
                 function (err, rows) {
                     if (rows === undefined) {
-
+                        console.log("jhfjfjfj")
                     } else {
                         console.log(rows)
                         text = ""
