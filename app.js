@@ -7,6 +7,8 @@ const router = express.Router();
 
 const indexRouter = require('./routes/index');
 const getQueryResults = require('./routes/getQueryResults');
+const getQueryResults2 = require('./routes/getQueryResults2');
+const getQueryResults3 = require('./routes/getQueryResults3');
 
 let app = express();
 
@@ -22,6 +24,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/getQueryResults', getQueryResults);
+app.use('/getQueryResults2', getQueryResults2);
+app.use('/getQueryResults3', getQueryResults3);
 // Add more paths to more pages!
 
 // catch 404 and forward to error handler

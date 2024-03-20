@@ -94,3 +94,50 @@ function getQueryResults2() {
     };
     xhr.send("");
 }
+
+function getQueryResults3() {
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', '/getQueryResults3', true);
+    // xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            // The results of the query are caught here and are posted as an alert.
+            queryResults = xhr.response
+            // Creates a list of all the results from the Query
+            queryResults = queryResults.toString().split("\n")
+            // Inserting the data the first resutl to HTML
+            firstQuery = queryResults[0].toString().split(",")
+            document.getElementById("insect_ID").innerHTML = "Insect: " + firstQuery[0].toString()
+            document.getElementById("image001").src = firstQuery[2].toString()
+            document.getElementById("diet_typei").innerHTML = "Diet: " + firstQuery[1].toString()
+            document.getElementById("lifespani").innerHTML = "Lifespan (years): " + firstQuery[2].toString()
+
+            secondQuery = queryResults[1].toString().split(",")
+            document.getElementById("insect_ID1").innerHTML = "Insect: " + secondQuery[0].toString()
+            document.getElementById("image0011").src = secondQuery[2].toString()
+            document.getElementById("diet_type1i").innerHTML = "Diet: " + secondQuery[1].toString()
+            document.getElementById("lifespan1i").innerHTML = "Lifespan (years): " + secondQuery[2].toString()
+
+            thirdQuery = queryResults[2].toString().split(",")
+            document.getElementById("insect_ID2").innerHTML = "Insect: " + thirdQuery[0].toString()
+            document.getElementById("image0012").src = thirdQuery[2].toString()
+            document.getElementById("diet_type2i").innerHTML = "Diet: " + thirdQuery[1].toString()
+            document.getElementById("lifespan2i").innerHTML = "Lifespan (years): " + thirdQuery[2].toString()
+
+            fourthQuery = queryResults[3].toString().split(",")
+            document.getElementById("insect_ID3").innerHTML = "Insect: " + fourthQuery[0].toString()
+            document.getElementById("image0013").src = fourthQuery[2].toString()
+            document.getElementById("diet_type3i").innerHTML = "Diet: " + fourthQuery[1].toString()
+            document.getElementById("lifespan3i").innerHTML = "Lifespan (years): " + fourthQuery[2].toString()
+
+            fifthQuery = queryResults[4].toString().split(",")
+            document.getElementById("insect_ID4").innerHTML = "Insect: " + fifthQuery[0].toString()
+            document.getElementById("image0014").src = fifthQuery[2].toString()
+            document.getElementById("diet_type4i").innerHTML = "Diet: " + fifthQuery[1].toString()
+            document.getElementById("lifespan4i").innerHTML = "Lifespan (years): " + fifthQuery[2].toString()
+
+
+        }
+    };
+    xhr.send("");
+}
