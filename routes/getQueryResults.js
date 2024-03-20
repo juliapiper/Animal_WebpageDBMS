@@ -21,7 +21,7 @@ router.post('/', (req, res) => {
         } else {
             // Sending this query results back to the client.
             connection.query(
-                "SELECT * FROM mammal WHERE diet_type = 'Omnivore' AND in_north_america = 'Y' LIMIT 6",
+                "SELECT * FROM mammal WHERE in_north_america = 'Y' ",
                 function (err, rows) {
                     if (rows === undefined) {
                         console.log("jhfjfjfj")
@@ -48,3 +48,4 @@ router.post('/', (req, res) => {
 
 
 module.exports = router;
+
