@@ -1,0 +1,13 @@
+﻿Insect_ID,Max_size,Min_size,Diet,In_North_America,Lifespan (years),Can_fly
+Monarch Butterfly,12,8.9,Herbivore,Y,1,Y
+Africanized Bee,1.9,1.7,Omnivore,Y,0.5,Y
+Praying Mantis,10,7.5,Carnivore,Y,1,Y
+Atlas Moth,30,25,Herbivore,N,0.5,Y
+Goliath Beetle,11,6,Omnivore,N,1,Y
+Ladybug,1,0.8,Carnivore,Y,2,Y
+Dragonfly,12,7.6,Carnivore,Y,0.5,Y
+Tarantula Hawk Wasp,5,3.8,Carnivore,Y,0.5,Y
+Giant Weta,10,7,Herbivore,N,2,N
+Firefly,2.5,1,Omnivore,Y,2,Y
+,,,,,,
+,,,,,,
