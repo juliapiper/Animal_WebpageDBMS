@@ -5,33 +5,43 @@
     <title>Title</title>
     <script type="text/javascript" src="../javascripts/home.js"></script>
     <style>
-        /* Container for the entire page content */
+        body {
+            background-color: #ccffcc; /* Light green background */
+        }
+
+        html {
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Applies Comic Sans MS to the entire page */
+        }
+
         .page-container {
-            display: flex; /* Use flexbox for layout */
-            justify-content: space-around; /* Space out the columns evenly */
-            flex-wrap: wrap; /* Allow the containers to wrap */
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
         }
 
-        /* Individual column container for each category */
         .category-container {
-            margin: 20px; /* Add some margin around each category container */
+            margin: 20px;
         }
 
-        /* Style for the buttons for better visibility */
         button {
-            display: block; /* Make the button a block element to fill the container width */
-            margin-bottom: 10px; /* Add some space below the button */
-            cursor: pointer; /* Changes cursor to pointer when hovering over buttons */
+            display: block;
+            margin-bottom: 15px; /* Increased margin for more space between buttons */
+            cursor: pointer;
+            background-color: #ffff99; /* Pale yellow background */
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans font */
+            border: none; /* Removes the default button border */
+            border-radius: 10px; /* Optional: Adds rounded corners to the buttons */
+            padding: 15px 30px; /* Increased padding for larger button size */
+            font-size: 25px; /* Larger font size for the text inside the button */
         }
 
-        /* Style for the divs containing the images and information */
         .info-container {
-            margin-bottom: 10px; /* Add some space below each information container */
+            margin-bottom: 10px;
         }
 
         img {
-            max-width: 100%; /* Make images responsive to the container width */
-            height: auto; /* Keep the image aspect ratio */
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -94,7 +104,7 @@
 
     <!-- Birds Category -->
     <div class="category-container">
-        <button onclick="getQueryResults2()">North American Birds</button>
+        <button onclick="getQueryResults2()"> North American Birds </button>
         <!-- Birds content goes here -->
         <div class="info-container">
             <img id="image001" src="../images/placeholder.png" width="300" height="450">
