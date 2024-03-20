@@ -41,6 +41,27 @@ function getQueryResults() {
             document.getElementById("diet_type4").innerHTML = "Diet: " + fifthQuery[1].toString()
             document.getElementById("lifespan4").innerHTML = "Lifespan (years): " + fifthQuery[2].toString()
 
+            sixthQuery = queryResults[5].toString().split(",")
+            document.getElementById("mammal_ID5").innerHTML = "Mammal: " + sixthQuery[0].toString()
+            document.getElementById("image0015").src = sixthQuery[2].toString()
+            document.getElementById("diet_type5").innerHTML = "Diet: " + sixthQuery[1].toString()
+            document.getElementById("lifespan5").innerHTML = "Lifespan (years): " +sixthQuery[2].toString()
+
+            seventhQuery = queryResults[6].toString().split(",")
+            document.getElementById("mammal_ID6").innerHTML = "Mammal: " + seventhQuery[0].toString()
+            document.getElementById("image0016").src = seventhQuery[2].toString()
+            document.getElementById("diet_type6").innerHTML = "Diet: " + seventhQuery[1].toString()
+            document.getElementById("lifespan6").innerHTML = "Lifespan (years): " + seventhQuery[2].toString()
+
+            eigthQuery = queryResults[7].toString().split(",")
+            document.getElementById("mammal_ID7").innerHTML = "Mammal: " + eigthQuery[0].toString()
+            document.getElementById("image0017").src = eigthQuery[2].toString()
+            document.getElementById("diet_type7").innerHTML = "Diet: " + eigthQuery[1].toString()
+            document.getElementById("lifespan7").innerHTML = "Lifespan (years): " + eigthQuery[2].toString()
+
+
+
+
 
         }
     };
@@ -89,6 +110,25 @@ function getQueryResults2() {
             document.getElementById("diet_type4b").innerHTML = "Diet: " + fifthQuery[1].toString()
             document.getElementById("lifespan4b").innerHTML = "Lifespan (years): " + fifthQuery[2].toString()
 
+            sixthQuery = queryResults[5].toString().split(",")
+            document.getElementById("bird_ID5").innerHTML = "Bird: " + sixthQuery[0].toString()
+            document.getElementById("image0015").src = sixthQuery[2].toString()
+            document.getElementById("diet_type5b").innerHTML = "Diet: " + sixthQuery[1].toString()
+            document.getElementById("lifespan5b").innerHTML = "Lifespan (years): " +sixthQuery[2].toString()
+
+            seventhQuery = queryResults[6].toString().split(",")
+            document.getElementById("bird_ID6").innerHTML = "Bird: " + seventhQuery[0].toString()
+            document.getElementById("image0016").src = seventhQuery[2].toString()
+            document.getElementById("diet_type6b").innerHTML = "Diet: " + seventhQuery[1].toString()
+            document.getElementById("lifespan6b").innerHTML = "Lifespan (years): " + seventhQuery[2].toString()
+
+            eigthQuery = queryResults[7].toString().split(",")
+            document.getElementById("bird_ID7").innerHTML = "Bird: " + eigthQuery[0].toString()
+            document.getElementById("image0017").src = eigthQuery[2].toString()
+            document.getElementById("diet_type7b").innerHTML = "Diet: " + eigthQuery[1].toString()
+            document.getElementById("lifespan7b").innerHTML = "Lifespan (years): " + eigthQuery[2].toString()
+
+
 
         }
     };
@@ -135,6 +175,25 @@ function getQueryResults3() {
             document.getElementById("image0014").src = fifthQuery[2].toString()
             document.getElementById("diet_type4i").innerHTML = "Diet: " + fifthQuery[1].toString()
             document.getElementById("lifespan4i").innerHTML = "Lifespan (years): " + fifthQuery[2].toString()
+
+            sixthQuery = queryResults[5].toString().split(",")
+            document.getElementById("insect_ID5").innerHTML = "Insect: " + sixthQuery[0].toString()
+            document.getElementById("image0015").src = sixthQuery[2].toString()
+            document.getElementById("diet_type5i").innerHTML = "Diet: " + sixthQuery[1].toString()
+            document.getElementById("lifespan5i").innerHTML = "Lifespan (years): " +sixthQuery[2].toString()
+
+            seventhQuery = queryResults[6].toString().split(",")
+            document.getElementById("insect_ID6").innerHTML = "Insect: " + seventhQuery[0].toString()
+            document.getElementById("image0016").src = seventhQuery[2].toString()
+            document.getElementById("diet_type6i").innerHTML = "Diet: " + seventhQuery[1].toString()
+            document.getElementById("lifespan6i").innerHTML = "Lifespan (years): " + seventhQuery[2].toString()
+
+            eigthQuery = queryResults[7].toString().split(",")
+            document.getElementById("insect_ID7").innerHTML = "Insect: " + eigthQuery[0].toString()
+            document.getElementById("image0017").src = eigthQuery[2].toString()
+            document.getElementById("diet_type7i").innerHTML = "Diet: " + eigthQuery[1].toString()
+            document.getElementById("lifespan7i").innerHTML = "Lifespan (years): " + eigthQuery[2].toString()
+
 
 
         }
