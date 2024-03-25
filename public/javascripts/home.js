@@ -14,15 +14,14 @@ function getQueryResults() {
                     // Update ID, diet, and lifespan
                     document.getElementById("mammal_ID" + (i ? i : "")).innerHTML = "Mammal: " + query[0];
                     document.getElementById("diet_type" + (i ? i : "")).innerHTML = "Diet: " + query[1];
-                    document.getElementById("lifespan" + (i ? i : "")).innerHTML = "Lifespan (years): " + query[2];
+                    document.getElementById("lifespan" + (i ? i : "")).innerHTML = "Lifespan (years): " + query[2]
+                    document.getElementById("mampic" + i).src = query[3].trim();
 
-                    // Check if image path is valid before updating
-                    if (query[3] && query[3].trim() !== "") {
-                        document.getElementById("mampic" + i).src = query[3].trim();
+
                     }
                 }
             }
-        }
+
     };
     xhr.send("");
 }
@@ -40,12 +39,11 @@ function getQueryResults2() {
                     document.getElementById("bird_ID" + (i ? i : "")).innerHTML = "Bird: " + query[0];
                     document.getElementById("diet_type" + (i ? i : "") + "b").innerHTML = "Diet: " + query[1];
                     document.getElementById("lifespan" + (i ? i : "") + "b").innerHTML = "Lifespan (years): " + query[2];
-                    if (query[3] && query[3].trim() !== "") {
-                        document.getElementById("birpic" + i).src = query[3].trim();
+                    document.getElementById("birpic" + i).src = query[3].trim();
                     }
                 }
             }
-        }
+
     };
     xhr.send("");
 }
@@ -62,12 +60,11 @@ function getQueryResults3() {
                     document.getElementById("insect_ID" + (i ? i : "")).innerHTML = "Insect: " + query[0];
                     document.getElementById("diet_type" + (i ? i : "") + "i").innerHTML = "Diet: " + query[1];
                     document.getElementById("lifespan" + (i ? i : "") + "i").innerHTML = "Lifespan (years): " + query[2];
-                    if (query[3] && query[3].trim() !== "") {
-                        document.getElementById("inspic" + i).src = query[3].trim();
+                    document.getElementById("inspic" + i).src = query[3].trim();
                     }
                 }
             }
-        }
+
     };
     xhr.send("");
 }

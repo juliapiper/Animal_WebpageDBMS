@@ -32,6 +32,7 @@ router.post('/', (req, res) => {
                             text += rows[i].mammal_ID + ","
                             text += rows[i].diet_type + ","
                             text += rows[i].lifespan + ","
+                            text += rows[i].mampic + ","
                             text += "\n";
                         }
                         return res.end(text);
