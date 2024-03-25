@@ -1,0 +1,31 @@
+﻿Mammal_ID,Max_Size(cm),Min_Size(cm),Diet,In_North_America,Lifespan_(Years),Can_Fly,mampic
+American Bison,2200,400,Herbivore,Y,20,N,../images/American Bison.jpeg
+Grizzly Bear,360,180,Omnivore,Y,25,N,../images/Grizzly Bear.jpeg
+Eastern Gray Squirrel,0.72,0.4,Omnivore,Y,12,N,../images/Eastern Gray Squirrel.jpeg
+Moose,700,380,Herbivore,Y,20,N,../images/Moose.jpeg
+Virginia Opossum,6,1.5,Omnivore,Y,4,N,
+Mountain Lion,100,40,Carnivore,Y,20,N,../images/Mountain Lion.jpeg
+American Black Bear,250,90,Omnivore,Y,20,N,../images/American Black Bear.jpeg
+North American Beaver,32,11,Herbivore,Y,24,N,
+Red Fox,14,3.6,Omnivore,Y,5,N,
+White-tailed Deer,90,45,Herbivore,Y,14,N,
+African Elephant,6000,2700,Herbivore,N,70,N,
+Bengal Tiger,325,100,Carnivore,N,15,N,
+Giant Panda,160,75,Herbivore,N,20,N,
+Blue Whale,200000,75000,Carnivore,N,90,N,
+Chimpanzee,70,40,Omnivore,N,50,N,
+Arctic Fox,8,3,Carnivore,Y,3,N,../images/Arctic Fox.jpeg
+Grey Wolf,80,30,Carnivore,Y,16,N,../images/Grey Wolf.jpeg
+Hippopotamus,3200,1500,Herbivore,N,50,N,
+Koala,14,5,Herbivore,N,18,N,
+Narwhal,1600,800,Carnivore,N,50,N,
+Orangutan,100,50,Omnivore,N,40,N,
+Platypus,2.4,0.7,Carnivore,N,17,N,
+Quokka,4.5,2.5,Herbivore,N,10,N,
+Rhinoceros,2300,800,Herbivore,N,50,N,
+Sloth Bear,145,55,Omnivore,N,40,N,
+Tasmanian Devil,12,4,Carnivore,N,7,N,
+Urial (Wild Sheep),90,40,Herbivore,N,12,N,
+Vampire Bat,0.04,0.02,Carnivore,N,9,Y,
+Walrus,1500,600,Carnivore,Y,40,N,
+Xerus (African Squirrel),0.8,0.3,Herbivore,N,12,N,

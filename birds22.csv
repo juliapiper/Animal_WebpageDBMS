@@ -1,0 +1,31 @@
+﻿Bird_ID,Max_Size(cm),Min_Size(cm),Diet,In_North_America,Lifespan_(Years),Can_Fly,birpic
+American Robin,28,23,,Y,2,Y,../images/American Robin.jpeg
+Bald Eagle,102,70,,Y,20,Y,../images/Bald Eagle.jpeg
+Peregrine Falcon,58,34,,Y,17,Y,
+Emperor Penguin,115,115,,N,20,N,
+Kiwi,45,45,,N,50,N,
+Blue Jay,30,25,,Y,7,Y,../images/Blue Jay.jpeg
+Great Horned Owl,63,46,,Y,28,Y,../images/Great Horned Owl.jpeg
+Atlantic Puffin,25,25,,Y,20,Y,../images/Atlantic Puffin.jpeg
+Common Ostrich,210,210,,N,40,N,
+Northern Cardinal,23,21,,Y,15,Y,
+Hummingbird,13,7,,Y,5,Y,../images/Hummingbird.jpeg
+Snowy Owl,70,52,,Y,10,Y,
+Red-tailed Hawk,65,45,,Y,21,Y,
+Eurasian Eagle-Owl,75,56,,N,20,Y,
+Scarlet Macaw,90,81,,N,50,Y,
+Mallard Duck,65,50,,Y,10,Y,
+Ocellated Turkey,70,64,,N,15,Y,
+Australian Pelican,180,160,,N,25,Y,
+Black Skimmer,50,40,,Y,10,Y,../images/Black Skimmer.jpeg
+Osprey,60,54,,Y,30,Y,
+Painted Bunting,15,12,,Y,10,Y,
+Swallow-tailed Kite,50,48,,Y,8,Y,
+Toco Toucan,65,55,,N,20,Y,
+Greater Flamingo,150,120,,N,40,Y,
+Harpy Eagle,105,89,,N,25,Y,
+Quetzal,40,35,,N,20,Y,
+African Fish Eagle,90,73,,N,24,Y,
+Galapagos Penguin,50,48,,N,15,N,
+Indian Peafowl,100,90,,N,20,Y,
+Barred Owl,50,40,,Y,23,Y,../images/Barred Owl.jpeg
